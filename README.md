@@ -1,6 +1,8 @@
 # Rust
 Rust https://www.rust-lang.org/
 
+### Book
+https://doc.rust-lang.org/book/
 
 ### Rust 설치
 curl https://sh.rustup.rs -sSf | sh
