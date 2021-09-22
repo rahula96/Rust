@@ -74,3 +74,16 @@ For more information about this error, try `rustc --explain E0277`.
 'std::fmt::Display' 
 
 When a data type implement the specific trait, then the data type can use the functionality
+
+### [러스트] 012 - Mutability(changing)
+
+Mutable(변할 수 있는) <==> Immutable(변할 수 없는..)
+
+Mutant :  변종
+
+Rust is basically immutable-style language.
+
+Immutable 장점 : Data Safety 높다.
+Mutable : Data Safety 낮다.
+
+expected integer, found `&str`
