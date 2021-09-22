@@ -50,3 +50,27 @@ multiply
 (
     number_one: i32,
 number_two: i32){
+
+
+### [러스트] 011 - Display and debug
+
+```
+error[E0277]: `()` doesn't implement `std::fmt::Display`
+ --> main_01.rs:4:41
+  |
+4 |     println!("This will not print: {}", doesnt_print);
+  |                                         ^^^^^^^^^^^^ `()` cannot be formatted with the default formatter
+  |
+  = help: the trait `std::fmt::Display` is not implemented for `()`
+  = note: in format strings you may be able to use `{:?}` (or {:#?} for pretty-print) instead
+  = note: this error originates in the macro `$crate::format_args_nl` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error: aborting due to previous error
+
+For more information about this error, try `rustc --explain E0277`.
+```
+
+() ==> Data Type
+'std::fmt::Display' 
+
+When a data type implement the specific trait, then the data type can use the functionality
