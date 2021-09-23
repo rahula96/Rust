@@ -111,3 +111,66 @@ Each type can do something specific to the type.
 
 ### [러스트] 015 - 14. More about printing(2/3)
 
+
+### [러스트] 016 - Stack, Heap, Own, Borrow
+
+Rust is fast, safe, and concurrent language
+
+- Fast : CPU/Memory
+- Safe : CPU/Memory
+
+- Stack,Heap : Fast
+- Own, Borrow : Safe
+
+Data Type(i32, i8....) is for fast.
+
+C/C++, Java, Go ... => Unsafe할수 있다고 말하네....갸우뚱...
+
+Rust => Human cannot produce unsafe codes.
+
+- Owned Data(name)
+    1. 모든 데이터는 어느 한 시점에 반드시 하나의 꼭 하나의 소유자(Owner)를 갖는다. 그 소유자는 주로 Variable
+    1. 모든 데이터는 만들어지는 시점과 소멸되는 시점이 반드시 한 번씩만 있다.
+    1. 모든 데이터의 소유권은 어느 한 소유자에서 다른 소유자로 이전 될 수 있다.
+    1. 모든 데이터는 매우 특수한 상황에서 공동 소유자가 존재할 수 있다.
+    
+    String
+
+- Borrowed Data(&name or ref name)
+    1. 다른 소유자에게서 빌려온 데이터
+    1. 어느 한 소유자는 자신의 데이터를 무한히 반복하여 빌려줄 수 있다.
+    1. 빌려주는 사람(소유자)는 반드시 빌려간 사람 보다 오래 살아야 한다.
+
+    &str
+
+
+### [러스트] 017 - 15. Strings(1/3)
+&str : Borrow = Not Owned == 사용한 이후에는 다시 채워둘 것, 무한 반복해서 소비할 수 있다.
+1. 데이터가 Stack에 할당
+1. 이 데이터를 무한 반복해서 재사용
+1. 이 데이터의 소유자는 불특정 : 누구나 가져가서 쓸수 있다.
+
+
+std::string::String
+1. Heap에 저장된 Data
+1. 데이터의 소유자가 특정
+1. 어느 한 시점, 반드시 하나의 꼭 하나의 소유자가 있다.
+
+Rust는 Misstion Critical Language : 자원(Resource)을 매우 정밀하게 사용, 활용, 관리해야 하는 언어
+
+### [러스트] 018 - 16. Strings(2/3)
+
+Sized
+    - String 데이터 타입이 Stack에서 차지하는 공간의 크기는 특정 ==> 24bytes
+
+Not-Sized => Various Sized
+    - &str 데이터타입이 Stack에서 차지하는 공간의 크기는 Argument에 의해 결정
+
+### [러스트] 019 -15. Strings(3/3)
+
+
+### [러스트] 020 - 17. More on references
+
+### [러스트] 020 - (보충 설명) 메모리 구조 - Stack, Heap, Own, Borrow(1/2)
+
+1. Some data type are stored in Stack. Others are in Heap. The former are numbers(i32, i64..) and tuple, array... The latter are complex data types such as struct and Vec
