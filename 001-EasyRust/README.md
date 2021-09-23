@@ -1,7 +1,7 @@
 아래 YouTube동영상과 Book을 보면서 학습
 
-출처 : https://www.youtube.com/watch?v=K4skKgIokmU&list=PLlSZlNj22M7RSK23wBRLdgu8tdFbbMUqR&index=8
-출처 : https://dhghomon.github.io/easy_rust
+- 출처 : https://www.youtube.com/watch?v=K4skKgIokmU&list=PLlSZlNj22M7RSK23wBRLdgu8tdFbbMUqR&index=8
+- 출처 : https://dhghomon.github.io/easy_rust
 
 
 
@@ -87,3 +87,27 @@ Immutable 장점 : Data Safety 높다.
 Mutable : Data Safety 낮다.
 
 expected integer, found `&str`
+
+### [러스트] 013 - The stack, the heap, and pointers
+
+1. Stack Data
+    - Compile Time
+1. Heap Data
+    - Runtime 
+
+### [러스트] 014 - 14. More about printing(1/2)
+
+[u8; 27]` doesn't implement `std::fmt::Display
+
+[u8; 27] : u8이 27개
+` doesn't implement `
+std::fmt::Display : Standard Library's Format module's Display trait
+
+Trait is something which types can implement.
+
+Type is 공간적 대상..... : i32, u8
+Each type can do something specific to the type.
+일련의 타입들이 할 수 있는 공통적인 동작을 모아서 하나의 그룹을 표현 : Trait
+
+### [러스트] 015 - 14. More about printing(2/3)
+
