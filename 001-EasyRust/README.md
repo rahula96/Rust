@@ -174,3 +174,8 @@ Not-Sized => Various Sized
 ### [러스트] 020 - (보충 설명) 메모리 구조 - Stack, Heap, Own, Borrow(1/2)
 
 1. Some data type are stored in Stack. Others are in Heap. The former are numbers(i32, i64..) and tuple, array... The latter are complex data types such as struct and Vec
+
+### [러스트] 021 - 18. Mutable references(1/2)
+
+
+### [러스트] 022 - 18. Mutable references(2/2)
