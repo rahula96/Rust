@@ -191,3 +191,17 @@ Some types(=primitive type) just copy original value to a new variable.
 ### [러스트] 026 - 21. Collection types(1/2)
 
 ### [러스트] 028 - 21. Collection types(2/2)
+
+### [러스트] 029 - 22. Vectors
+```rust
+let name1 = String::from("Windy");
+let : Variable Declaration
+name1 : Variable Identifier
+= : Binding or Assignment
+String : Struct or Data Type
+:: ==> has
+from( : Method
+    "Windy" : Argument
+    )
+    ; : Return()
+```
