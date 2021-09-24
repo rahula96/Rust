@@ -186,3 +186,4 @@ Some types(=primitive type) just copy original value to a new variable.
 
 ### [러스트] 024 - 25. Copy types(2/2)
 
+### [러스트] 025 - 19.Giving references to functions
