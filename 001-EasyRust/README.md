@@ -179,3 +179,10 @@ Not-Sized => Various Sized
 
 
 ### [러스트] 022 - 18. Mutable references(2/2)
+
+### [러스트] 023 - 24. Copy types(1/2)
+
+Some types(=primitive type) just copy original value to a new variable.
+
+### [러스트] 024 - 25. Copy types(2/2)
+
