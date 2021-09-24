@@ -1,0 +1,18 @@
+fn main() {
+    let array_of_ten = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+    let a = &array_of_ten;
+
+    println!("&array_of_ten: {:p}", &array_of_ten);
+    println!("a:{:p}", a);
+
+    let three_to_five = &array_of_ten[2..5];
+    let start_at_two = &array_of_ten[1..];
+    let end_at_five = &array_of_ten[..5];
+    let everything = &array_of_ten[..];
+
+    println!("three_to_five:{:?}", three_to_five); // slice
+    println!("start_at_two:{:?}", start_at_two);
+    println!("end_at_five:{:?}", end_at_five);
+    println!("everything:{:?}", everything);
+}

@@ -187,3 +187,7 @@ Some types(=primitive type) just copy original value to a new variable.
 ### [러스트] 024 - 25. Copy types(2/2)
 
 ### [러스트] 025 - 19.Giving references to functions
+
+### [러스트] 026 - 21. Collection types(1/2)
+
+### [러스트] 028 - 21. Collection types(2/2)
