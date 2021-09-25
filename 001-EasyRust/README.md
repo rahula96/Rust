@@ -212,3 +212,12 @@ from( : Method
 The number of elements in a tuple not limited from 0 to any.
 
 ### [러스트] 031 - 24. Control flow
+
+### [러스트] 032 - 25. Structs
+1. method : 그 자신의 Function
+1. A struct may implement on or several traits
+
+### [러스트] 033 - 26. Enums
+Enumerate : 열거
+
+### [러스트] 034 - 27. Loops
