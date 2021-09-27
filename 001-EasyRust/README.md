@@ -223,3 +223,9 @@ Enumerate : 열거
 ### [러스트] 034 - 27. Loops
 
 ### [러스트] 035 - 28. Implementing structs and enums
+auto-tracking = auto dereference
+
+### [러스트] 036 - 30. References and the dot operator(2/1)
+
+### [러스트] 037 - 30. References and the dot operator(2/2)
+{integer} : integral literal
