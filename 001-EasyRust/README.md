@@ -221,3 +221,5 @@ The number of elements in a tuple not limited from 0 to any.
 Enumerate : 열거
 
 ### [러스트] 034 - 27. Loops
+
+### [러스트] 035 - 28. Implementing structs and enums
