@@ -229,3 +229,10 @@ auto-tracking = auto dereference
 
 ### [러스트] 037 - 30. References and the dot operator(2/2)
 {integer} : integral literal
+
+### [러스트] 038 - 31. Generics(1/2)
+Generic is 
+1. a method define the relationship between input types and output types
+1. to bind the types of input and those of outputs.
+
+### [러스트] 039 - 31. Generics(2/2)
