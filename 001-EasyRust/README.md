@@ -236,3 +236,6 @@ Generic is
 1. to bind the types of input and those of outputs.
 
 ### [러스트] 039 - 31. Generics(2/2)
+
+### [러스트] 040 - 32. Option and Result(1/2)
+Option and Result are for safety.
