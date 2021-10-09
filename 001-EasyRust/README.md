@@ -239,3 +239,9 @@ Generic is
 
 ### [러스트] 040 - 32. Option and Result(1/2)
 Option and Result are for safety.
+
+### [러스트] 043 - 35. Traits(1/2)
+
+### [러스트] 044 - 35. Traits(2/2)
+
+### [러스트] 045 - 36. Chaining methods

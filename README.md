@@ -19,3 +19,5 @@ rustc main.rs -o main.out
 
 #### 참고
 https://yoongrammer.tistory.com/13?category=942890
+
+https://docs.microsoft.com/ko-kr/learn/paths/rust-first-steps/
