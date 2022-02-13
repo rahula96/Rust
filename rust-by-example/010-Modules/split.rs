@@ -1,0 +1,9 @@
+mod my;
+
+fn function() {
+    println!("called `function()`");
+}
+
+fn main() {
+    my::function();
+}
