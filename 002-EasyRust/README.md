@@ -219,3 +219,5 @@ fn main() {
 
 ## [011 Easy Rust in Korean: mutability and shadowing](https://www.youtube.com/watch?v=uHuMJw73ukg&list=PLfllocyHVgsSJf1zO6k6o3SX2mbZjAqYE&index=11)
 
+- mutability and shadowing
+
